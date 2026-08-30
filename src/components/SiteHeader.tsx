@@ -9,7 +9,12 @@ const navLinks = [
   { href: "#story", label: "Our Promise" },
 ];
 
-const ticker = ["Made in India", "Dermatologically Tested", "100% Genuine Product", "Free Shipping Pan-India"];
+const ticker = [
+  "Made in India",
+  "Dermatologically Tested",
+  "100% Genuine Product",
+  "Free Shipping Pan-India",
+];
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
@@ -79,7 +84,10 @@ export function SiteHeader() {
             </span>
           </button>
 
-          <a href="#top" className="mx-auto flex min-w-0 items-center justify-center py-3 lg:mx-0 lg:justify-start">
+          <a
+            href="#top"
+            className="mx-auto flex min-w-0 items-center justify-center py-3 lg:mx-0 lg:justify-start"
+          >
             <img
               src={logoImg}
               alt="Glowaura-B3 logo — gold botanical branch wordmark"
