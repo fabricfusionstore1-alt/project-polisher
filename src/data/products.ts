@@ -8,12 +8,12 @@ import scrubImg from "../assets/p-scrub.jpg";
 import hairSerumImg from "../assets/p-hair-serum.jpg";
 import lipBalmImg from "../assets/p-lip-balm.jpg";
 import soapImg from "../assets/p-soap.jpg";
-import glutafineSoapAsset from "../assets/glutafine-soap.png.asset.json";
-import glofineCreamAsset from "../assets/glofine-cream.png.asset.json";
-import glowfineBAsset from "../assets/glowfine-b.png.asset.json";
-import glofineAdvanceAsset from "../assets/glofine-advance-face-cream.png.asset.json";
-import glofineKitAsset from "../assets/glofine-forte-kit.png.asset.json";
-import glofineTabletAsset from "../assets/glofine-forte-tablet.png.asset.json";
+import glutafineSoapImg from "../assets/glutafine-soap.jpg";
+import glofineCreamImg from "../assets/glofine-cream.jpg";
+import glowfineBImg from "../assets/glowfine-b.jpg";
+import glofineAdvanceImg from "../assets/glofine-advance-face-cream.jpg";
+import glofineKitImg from "../assets/glofine-forte-kit.jpg";
+import glofineTabletImg from "../assets/glofine-forte-tablet.jpg";
 
 export type Spec = { label: string; value: string };
 
@@ -63,7 +63,7 @@ const nightCream: Product = {
 
 const glutafineSoap: Product = {
   name: "Glutafine Rich Creamy Soap",
-  image: glutafineSoapAsset.url,
+  image: glutafineSoapImg,
   alt: "Glutafine Rich Creamy Soap 75 g in a deep maroon carton",
   tag: "Bath · Lightening",
   price: "₹349",
@@ -116,7 +116,7 @@ const bodyCream: Product = {
 
 const glofineTablet: Product = {
   name: "Glofine Forte L-Glutathione Tablet",
-  image: glofineTabletAsset.url,
+  image: glofineTabletImg,
   alt: "Glofine Forte L-Glutathione tablet carton with a silver blister strip",
   tag: "Nutraceutical · Inside-out",
   price: "₹1,299",
@@ -168,7 +168,7 @@ const faceSerum: Product = {
 
 const glofineAdvance: Product = {
   name: "Glofine Advance Glutathione Face Cream",
-  image: glofineAdvanceAsset.url,
+  image: glofineAdvanceImg,
   alt: "Glofine Advance Glutathione Face Cream pink airless pump bottle beside its carton",
   tag: "Face · Advance",
   price: "₹1,199",
@@ -220,7 +220,7 @@ const faceWash: Product = {
 
 const glowfineB: Product = {
   name: "Glowfine-B Skin Lightening Cream",
-  image: glowfineBAsset.url,
+  image: glowfineBImg,
   alt: "Glowfine-B Skin Lightening Cream tube with its white and green botanical carton",
   tag: "Face · Advanced Formula",
   price: "₹649",
@@ -301,7 +301,7 @@ const eyeGel: Product = {
 
 const glofineCream: Product = {
   name: "Glofine Rejuvenating Cream",
-  image: glofineCreamAsset.url,
+  image: glofineCreamImg,
   alt: "Glofine Cream 50 g carton in teal and black with a halftone pattern",
   tag: "Face · Rejuvenating",
   price: "₹799",
@@ -353,7 +353,7 @@ const scrub: Product = {
 
 const glofineKit: Product = {
   name: "Glofine Forte Skin Whitening Kit",
-  image: glofineKitAsset.url,
+  image: glofineKitImg,
   alt: "Glofine Forte skin whitening kit with tablets, soap and cream in teal packaging",
   tag: "Kit · Complete Regimen",
   price: "₹2,199",
